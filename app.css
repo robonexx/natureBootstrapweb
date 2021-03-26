@@ -1,0 +1,102 @@
+body {
+    background:#61ac1ae0;
+    font-family: "Nunito", sans-serif;
+}
+
+
+#mainNavbar .navbar-brand {
+    color: #FAFAFA;
+
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+#mainNavbar .nav-link {
+    color: #fafafa;
+}
+#mainNavbar .nav-link:hover {
+    color:#e3ecc0;
+    transform: scale(0.96);
+    font-weight: 400;
+}
+/* 
+.content {
+    margin-bottom: 5rem;
+} */
+
+
+#sectionHeading h2{
+    font-size: 3rem;
+}
+
+#sectionHeading h2 {
+    color: #092726;
+    text-shadow: 0px 0px 2px rgba(207, 206, 206, 0.6);
+}
+
+#sectionHeading h2:hover {
+    color: #bbebe9;
+    text-shadow: 0px 0px 2px rgba(207, 206, 206, 0.6);
+}
+
+#sectionHeading span {
+    color: rgb(224, 146, 100);
+    text-shadow: none;
+}
+#sectionMid h2 {
+    color: #092726;
+    font-size: 2.5rem;
+    text-shadow: 0px 0px 2px rgba(207, 206, 206, 0.6);
+}
+#sectionMid p {
+    color: #092726;
+    font-size: 1.5rem;
+    text-shadow: 0px 0px 2px rgba(207, 206, 206, 0.6);
+}
+#sectionEnd h2 {
+    color: #092726;
+    font-size: 2.5rem;
+    text-shadow: 0px 0px 2px rgba(207, 206, 206, 0.6);
+}
+#sectionEnd li {
+    color: #092726;
+    font-size: 1.5rem;
+    text-shadow: 0px 0px 2px rgba(207, 206, 206, 0.6);
+}
+
+.navbar.scrolled {
+    
+    background: rgb(96, 114, 81);
+    transition: background 500ms;
+}
+
+
+@media (max-width: 1200px) {
+
+    #mainNavbar .navbar-brand {
+        color: #fafafa;
+    }
+    #sectionHeading h2 {
+        font-size: 2rem;
+    }
+    #sectionMid h2 {
+        margin-top: 1rem;
+        font-size: 2rem;
+    }
+    #sectionMid p {
+        font-size: 1.25rem;
+    }
+
+    #sectionEnd h2 {
+        margin-top: 1rem;
+        font-size: 2rem;
+    }
+    #sectionEnd li {
+        font-size: 1.25rem;
+    }
+}
+
